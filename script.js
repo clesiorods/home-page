@@ -398,7 +398,7 @@ window.addEventListener('scroll', () => {
         const heroContent = heroSection.querySelector('.relative.z-10');
         if (heroContent && scrolled < window.innerHeight) {
             heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
-            heroContent.style.opacity = 1 - (scrolled / window.innerHeight) * 0.5;
+            heroContent.style.opacity = 1 - (scrolled / window.innerHeight) * 1.5;
         }
     }
 });
