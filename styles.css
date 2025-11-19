@@ -716,7 +716,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, label, div, li, td, th,
 
 /* Contact form section */
 [data-theme="light"] #contact {
-    background: linear-gradient(to bottom right, #f8f9fa, #ffffff) !important;
+    background: linear-gradient(to bottom right, #faf8fa, #ffffff) !important;
 }
 
 [data-theme="light"] #contact h2,
